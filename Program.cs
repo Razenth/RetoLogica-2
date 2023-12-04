@@ -42,8 +42,10 @@
                 }
                 System.Console.WriteLine("Resultado: {0}",list.Sum());
                 break;
+            case "N":
+            Console.Clear();
+                System.Console.WriteLine("Adiooos!");
+                break;
         }
-        System.Console.WriteLine("Presione enter para terminar el programa");
-        Console.ReadLine();
     }
 }
